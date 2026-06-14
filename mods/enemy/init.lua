@@ -718,7 +718,7 @@ minetest.register_globalstep(function(dtime)
 	-- Отсчет 10 секунд в режиме затишья
 	level_cooldown = level_cooldown + dtime
 
-	if level_cooldown >= 15.0 then
+	if level_cooldown >= 30.0 then
 		level_cooldown = 0
 		
 		-- Вычисляем следующий уровень (начиная с 1)
